@@ -2,7 +2,7 @@ const displayText = document.querySelector('.text')
 const backGround = document.querySelector('.background')
 
 let loadingValue = 0
-let timeFrame = setInterval(fade, 70)
+let timeFrame = setInterval(fade, 30)
 
 function fade() {
   loadingValue++
